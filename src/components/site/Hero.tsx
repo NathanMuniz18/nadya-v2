@@ -30,7 +30,7 @@ export function Hero() {
             {hero.tags.map((t) => (
               <span
                 key={t}
-                className="text-xs tracking-wider uppercase px-3 py-1.5 rounded-full border border-caramel/40 text-brown"
+                className="text-xs tracking-wider uppercase px-3 py-1.5 rounded-full border border-navy/40 text-navy"
               >
                 {t}
               </span>
@@ -42,14 +42,14 @@ export function Hero() {
               href={site.whatsappUrl}
               target="_blank"
               rel="noreferrer"
-              className="group inline-flex items-center gap-2 bg-caramel text-white px-7 py-4 rounded-full hover:bg-brown transition-colors"
+              className="group inline-flex items-center gap-2 bg-navy text-white px-7 py-4 rounded-full hover:bg-navy/80 transition-colors"
             >
               {hero.ctaPrimary}
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
               href="#atuacao"
-              className="inline-flex items-center gap-2 text-brown px-7 py-4 rounded-full border border-brown/20 hover:border-brown/60 transition-colors"
+              className="inline-flex items-center gap-2 text-navy px-7 py-4 rounded-full border border-navy/20 hover:border-navy/60 transition-colors"
             >
               {hero.ctaSecondary}
             </a>
@@ -67,7 +67,7 @@ export function Hero() {
               />
               <div className="absolute inset-0 bg-[color:var(--caramel)] mix-blend-multiply opacity-[0.06]" />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-brown text-[color:var(--beige)] px-5 py-4 rounded-2xl shadow-lg">
+            <div className="absolute -bottom-6 -left-6 bg-navy text-[color:var(--beige)] px-5 py-4 rounded-2xl shadow-lg">
               <div className="text-[10px] tracking-[0.25em] uppercase opacity-70">CRP</div>
               <div className="font-display text-lg">{site.crp}</div>
             </div>
