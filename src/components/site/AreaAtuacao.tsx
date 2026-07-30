@@ -25,10 +25,10 @@ export function AreaAtuacao() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-12 gap-8">
-          {/* Photo card spans first column on large */}
-          <div className="lg:col-span-4 lg:row-span-2 relative">
-            <div className="relative h-full min-h-[380px] rounded-3xl overflow-hidden">
+        <div className="grid lg:grid-cols-12 gap-8 items-stretch">
+          {/* Photo card — taller, fills the left column */}
+          <div className="lg:col-span-4 relative">
+            <div className="relative h-full min-h-[520px] lg:min-h-[620px] rounded-3xl overflow-hidden">
               <img
                 src={areaImg.url}
                 alt="Nadya Tanan trabalhando com tablet"
@@ -42,39 +42,35 @@ export function AreaAtuacao() {
             </div>
           </div>
 
-          {atuacao.services.map((s, i) => {
-            const Icon = iconMap[s.icon as keyof typeof iconMap];
-            return (
-              <div
-                key={s.title}
-                className={`lg:col-span-8 bg-background rounded-3xl p-8 md:p-10 flex flex-col md:flex-row gap-8 group ${
-                  i === 1 ? "lg:col-span-8" : ""
-                }`}
-              >
-                <div className="md:w-1/3">
+          <div className="lg:col-span-8 grid md:grid-cols-3 gap-6 items-stretch">
+            {atuacao.services.map((s, i) => {
+              const Icon = iconMap[s.icon as keyof typeof iconMap];
+              return (
+                <div
+                  key={s.title}
+                  className="bg-background rounded-3xl p-7 md:p-8 flex flex-col group h-full"
+                >
                   <div className="h-14 w-14 rounded-2xl bg-beige flex items-center justify-center text-caramel mb-4">
                     <Icon className="h-6 w-6" />
                   </div>
                   <div className="text-[10px] tracking-[0.3em] text-caramel mb-2">
                     Serviço 0{i + 1}
                   </div>
-                  <h3 className="font-display text-3xl text-brown">{s.title}</h3>
-                </div>
-                <div className="md:w-2/3 md:border-l md:border-border md:pl-8 flex flex-col justify-between">
-                  <p className="text-[color:var(--gray-body)] leading-relaxed">{s.text}</p>
+                  <h3 className="font-display text-2xl md:text-3xl text-brown">{s.title}</h3>
+                  <p className="mt-4 text-[color:var(--gray-body)] leading-relaxed">{s.text}</p>
                   <a
                     href={site.whatsappUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="mt-6 inline-flex items-center gap-2 text-brown hover:text-caramel transition-colors self-start"
+                    className="mt-auto pt-6 inline-flex items-center gap-2 text-brown hover:text-caramel transition-colors self-start"
                   >
                     <span className="border-b border-caramel pb-1">{s.cta}</span>
                     <ArrowUpRight className="h-4 w-4" />
                   </a>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>
