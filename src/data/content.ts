@@ -3,7 +3,7 @@
 export const site = {
   name: "Nadya Tanan",
   role: "Psicóloga e Neuropsicóloga",
-  crp: "CRP 00/000000",
+  crp: "CRP 06/222362",
   whatsappUrl: "https://wa.me/55XXXXXXXXXXX",
   whatsappLabel: "Conversar no WhatsApp",
   email: "contato@nadyatanan.com.br",
@@ -35,16 +35,40 @@ export const hero = {
 
 export const comoAjudo = {
   eyebrow: "Como posso te ajudar",
-  title: "Temas que costumo acompanhar em consultório",
+  title: "Principais temas que acolho em consultório",
   lead:
-    "Cada história é única. Estes são alguns dos pontos de partida mais comuns que chegam até mim.",
+    "Por trás de cada sintoma existe uma história que merece ser escutada. A ansiedade, os conflitos nos relacionamentos, a baixa autoestima e outros sofrimentos emocionais são caminhos possíveis para compreender aquilo que pede elaboração e transformação.",
   items: [
-    { icon: "wind", title: "Ansiedade", text: "Compreender gatilhos, corpo e pensamento em um ritmo mais respirável." },
-    { icon: "heart", title: "Autoestima", text: "Reconstruir a relação com quem você é para além do que produz." },
-    { icon: "users", title: "Relacionamentos", text: "Vínculos afetivos, familiares e profissionais que pedem revisão." },
-    { icon: "leaf", title: "Luto e perdas", text: "Espaço para atravessar despedidas — de pessoas, planos ou identidades." },
-    { icon: "flame", title: "Estresse e burnout", text: "Recuperar limites, energia e sentido no trabalho e na rotina." },
-    { icon: "compass", title: "Questões existenciais", text: "Momentos de virada, escolhas, propósito e busca de sentido." },
+    {
+      icon: "wind",
+      title: "Ansiedade",
+      text: "Aprender a compreender os gatilhos, reduzir o excesso de preocupação e desenvolver estratégias para viver com mais equilíbrio e segurança.",
+    },
+    {
+      icon: "heart",
+      title: "Autoestima e autoconhecimento",
+      text: "Fortalecer a relação consigo mesmo, construir uma identidade mais sólida e desenvolver uma autoestima menos dependente da validação externa.",
+    },
+    {
+      icon: "users",
+      title: "Relacionamentos",
+      text: "Dificuldades em relacionamentos amorosos, familiares e profissionais, padrões repetitivos, comunicação, limites e dependência emocional.",
+    },
+    {
+      icon: "leaf",
+      title: "Luto e mudanças",
+      text: "Espaço para elaborar perdas, separações, términos, mudanças de vida, transições profissionais e outras experiências que exigem adaptação.",
+    },
+    {
+      icon: "flame",
+      title: "Estresse, sobrecarga e burnout",
+      text: "Quando o cansaço deixa de ser apenas físico e começa a afetar emoções, produtividade, relacionamentos e qualidade de vida.",
+    },
+    {
+      icon: "compass",
+      title: "Desenvolvimento emocional",
+      text: "Acompanhamento para quem deseja compreender melhor suas emoções, enfrentar conflitos internos, aumentar a inteligência emocional e viver com mais autenticidade.",
+    },
   ],
 };
 
