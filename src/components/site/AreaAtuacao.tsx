@@ -7,23 +7,25 @@ const iconMap = { "message-circle": MessageCircle, brain: Brain, briefcase: Brie
 
 export function AreaAtuacao() {
   return (
-    <section id="atuacao" className="py-24 md:py-32 bg-beige relative overflow-hidden">
-      <SignatureMark className="absolute -right-32 -bottom-16 w-[600px] text-caramel opacity-[0.09]" />
+    <section id="atuacao" className="py-24 md:py-32 bg-navy relative overflow-hidden">
+      <SignatureMark className="absolute -right-32 -bottom-16 w-[600px] text-white opacity-[0.05]" />
+
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid md:grid-cols-12 gap-10 items-end mb-16">
           <div className="md:col-span-7">
-            <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
+            <div className="text-xs tracking-[0.28em] uppercase text-[color:var(--beige)] mb-4">
               {atuacao.eyebrow}
             </div>
-            <h2 className="font-display text-4xl md:text-6xl text-brown leading-[1.05] whitespace-pre-line">
+            <h2 className="font-display text-4xl md:text-6xl text-[color:var(--beige)] leading-[1.05] whitespace-pre-line">
               {atuacao.title}
             </h2>
           </div>
           <div className="md:col-span-4 md:col-start-9">
-            <p className="text-[color:var(--gray-body)] leading-relaxed">{atuacao.lead}</p>
+            <p className="text-[color:var(--beige)]/80 leading-relaxed">{atuacao.lead}</p>
           </div>
         </div>
+
 
         <div className="grid lg:grid-cols-12 gap-8 items-stretch">
           {/* Photo card — taller, fills the left column */}
@@ -48,26 +50,27 @@ export function AreaAtuacao() {
               return (
                 <div
                   key={s.title}
-                  className="bg-background rounded-3xl p-7 md:p-8 flex flex-col group h-full"
+                  className="bg-[color:var(--beige)] rounded-3xl p-7 md:p-8 flex flex-col group h-full"
                 >
-                  <div className="h-14 w-14 rounded-2xl bg-beige flex items-center justify-center text-caramel mb-4">
+                  <div className="h-14 w-14 rounded-2xl bg-navy/10 flex items-center justify-center text-navy mb-4">
                     <Icon className="h-6 w-6" />
                   </div>
-                  <div className="text-[10px] tracking-[0.3em] text-caramel mb-2">
+                  <div className="text-[10px] tracking-[0.3em] text-navy/60 mb-2">
                     Serviço 0{i + 1}
                   </div>
-                  <h3 className="font-display text-2xl md:text-3xl text-brown">{s.title}</h3>
-                  <p className="mt-4 text-[color:var(--gray-body)] leading-relaxed">{s.text}</p>
+                  <h3 className="font-display text-2xl md:text-3xl text-navy">{s.title}</h3>
+                  <p className="mt-4 text-navy/70 leading-relaxed">{s.text}</p>
                   <a
                     href={site.whatsappUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="mt-auto pt-6 inline-flex items-center gap-2 text-brown hover:text-caramel transition-colors self-start"
+                    className="mt-auto pt-6 inline-flex items-center gap-2 text-navy hover:text-caramel transition-colors self-start"
                   >
                     <span className="border-b border-caramel pb-1">{s.cta}</span>
                     <ArrowUpRight className="h-4 w-4" />
                   </a>
                 </div>
+
               );
             })}
           </div>
