@@ -14,17 +14,18 @@ export function AreaAtuacao() {
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid md:grid-cols-12 gap-10 items-end mb-16">
           <div className="md:col-span-7">
-            <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
+            <div className="text-xs tracking-[0.28em] uppercase text-[color:var(--beige)] mb-4">
               {atuacao.eyebrow}
             </div>
-            <h2 className="font-display text-4xl md:text-6xl text-brown leading-[1.05] whitespace-pre-line">
+            <h2 className="font-display text-4xl md:text-6xl text-[color:var(--beige)] leading-[1.05] whitespace-pre-line">
               {atuacao.title}
             </h2>
           </div>
           <div className="md:col-span-4 md:col-start-9">
-            <p className="text-[color:var(--gray-body)] leading-relaxed">{atuacao.lead}</p>
+            <p className="text-[color:var(--beige)]/80 leading-relaxed">{atuacao.lead}</p>
           </div>
         </div>
+
 
         <div className="grid lg:grid-cols-12 gap-8 items-stretch">
           {/* Photo card — taller, fills the left column */}
