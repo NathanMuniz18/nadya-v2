@@ -7,8 +7,9 @@ const iconMap = { "message-circle": MessageCircle, brain: Brain, briefcase: Brie
 
 export function AreaAtuacao() {
   return (
-    <section id="atuacao" className="py-24 md:py-32 bg-beige relative overflow-hidden">
-      <SignatureMark className="absolute -right-32 -bottom-16 w-[600px] text-caramel opacity-[0.09]" />
+    <section id="atuacao" className="py-24 md:py-32 bg-navy relative overflow-hidden">
+      <SignatureMark className="absolute -right-32 -bottom-16 w-[600px] text-white opacity-[0.05]" />
+
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid md:grid-cols-12 gap-10 items-end mb-16">
