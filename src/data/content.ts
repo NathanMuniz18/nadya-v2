@@ -130,25 +130,19 @@ export const depoimentos = {
   title: "O que meus pacientes contam",
   items: [
     {
-      name: "M. R.",
-      age: "34 anos",
       stars: 5,
       text:
-        "Encontrei um espaço em que consigo pensar em voz alta sem medo de ser julgada. A terapia com a Nadya mudou o modo como me relaciono comigo.",
+        "Excelente profissional! Muito humana, atenciosa e acolhedora. Sempre me sinto ouvida e respeitada durante as sessões, o que faz toda a diferença. Sou muito grata por todo o cuidado e todas as trocas.",
     },
     {
-      name: "L. A.",
-      age: "27 anos",
       stars: 5,
       text:
-        "A avaliação neuropsicológica foi conduzida com um cuidado que eu não esperava. Sai com respostas e com um plano concreto.",
+        "A Nadya pra mim é uma das profissionais mais especial que me atendeu até hoje. Paciente, generosa e sem dúvida extremamente profissional.",
     },
     {
-      name: "J. P.",
-      age: "41 anos",
       stars: 5,
       text:
-        "Escuta rara. A Nadya combina técnica e sensibilidade de um jeito que faz muita diferença no processo.",
+        "Eu nem cogitava novamente realizar terapia pois achava que seria um ambiente ruim. Quando conheci você, todas as minhas expectativas ruins e estigmas caíram por terra. Você tornou o ambiente seguro, leve e acolhedor. Eu sou tão grata pela sua escolha de ter sido profissional de psicologia que não consigo mensurar em palavras. Obrigada, de verdade. Você jamais me julgou e sempre me ouve com imensa atenção. Que grande profissional você é. Você me ajudou de formas que não imagina como. Eu tinha desistido de viver e você foi um instrumento para eu descobrir verdadeiro amor pela vida e perceber que delícia que é viver. Viver do meu jeito, com os meus objetivos, com o meu olhar e não com o do outro. Obrigada, mil vezes obrigada. 💖",
     },
   ],
 };

@@ -15,7 +15,7 @@ export function Depoimentos() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 items-start">
           {depoimentos.items.map((d, i) => (
             <figure
               key={i}
@@ -32,10 +32,6 @@ export function Depoimentos() {
               <blockquote className="text-[color:var(--beige)]/85 leading-relaxed font-display text-lg italic">
                 "{d.text}"
               </blockquote>
-              <figcaption className="mt-6 pt-6 border-t border-white/10">
-                <div className="text-caramel">{d.name}</div>
-                <div className="text-xs text-[color:var(--beige)]/60 mt-1">{d.age}</div>
-              </figcaption>
             </figure>
           ))}
         </div>
