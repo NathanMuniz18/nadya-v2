@@ -25,9 +25,10 @@ export const nav = [
 
 export const hero = {
   eyebrow: "Psicologia clínica & Neuropsicologia",
-  title: "Um espaço para pensar,\nsentir e recomeçar.",
+  title:
+    "Entre aquilo que você vive e aquilo que sua mente constrói,\nexiste uma história que merece ser compreendida.",
   lead:
-    "Atendimento humano e cuidadoso para adolescentes e adultos — presencial e online. Um processo construído no seu tempo, com escuta, técnica e verdade.",
+    "Meu trabalho integra a Psicanálise e a Neuropsicologia para ajudar você a compreender o que sente, identificar padrões e desenvolver recursos para viver com mais equilíbrio e autenticidade.",
   tags: ["Atendimento online", "Presencial", "Adolescentes e adultos"],
   ctaPrimary: "Agendar uma conversa",
   ctaSecondary: "Conhecer o trabalho",
@@ -74,29 +75,35 @@ export const comoAjudo = {
 
 export const atuacao = {
   eyebrow: "Área de atuação",
-  title: "Três frentes de trabalho,\numa mesma escuta.",
+  title: "Uma atuação integrada para compreender\na totalidade da sua jornada",
   lead:
-    "Atendimento clínico, avaliação neuropsicológica e consultoria — sempre com base em evidência e respeito pelo tempo de cada pessoa.",
+    "Psicoterapia, avaliação neuropsicológica e consultoria — sempre com base em evidência e respeito pelo tempo de cada pessoa.",
   services: [
     {
       icon: "message-circle",
-      title: "Terapia",
+      title: "Psicoterapia",
       text:
-        "Atendimento clínico individual, presencial ou online, em processo contínuo. Um espaço de escuta ética para adolescentes e adultos.",
-      cta: "Saber mais",
+        "Para quem busca compreender a origem dos próprios conflitos, desenvolver recursos emocionais e construir mudanças duradouras.",
+      detail:
+        "Um processo individual que integra Psicanálise e Neuropsicologia para promover autoconhecimento, regulação emocional e relações mais saudáveis, respeitando a singularidade de cada história.",
+      cta: "Conheça o processo",
     },
     {
       icon: "brain",
-      title: "Avaliação Psicológica",
+      title: "Avaliação Neuropsicológica",
       text:
-        "Avaliações neuropsicológicas e psicodiagnósticos com devolutiva cuidadosa e laudo detalhado, para escola, trabalho ou tratamento.",
-      cta: "Como funciona",
+        "Precisão diagnóstica para decisões clínicas, acadêmicas e profissionais.",
+      detail:
+        "Avaliações completas com instrumentos científicos e análise clínica aprofundada para investigação de funções cognitivas, transtornos do neurodesenvolvimento, alterações emocionais e funcionamento intelectual. Laudo técnico, devolutiva detalhada e orientações personalizadas.",
+      cta: "Entenda como funciona",
     },
     {
       icon: "briefcase",
-      title: "Consultoria",
+      title: "Consultoria em Saúde Mental",
       text:
-        "Apoio a empresas, profissionais da saúde e times que buscam repensar cultura, saúde mental e desenvolvimento humano.",
+        "Estratégias para fortalecer pessoas, lideranças e organizações.",
+      detail:
+        "Projetos personalizados para empresas que desejam desenvolver ambientes psicologicamente seguros, prevenir adoecimento emocional e potencializar desempenho por meio da saúde mental. Treinamentos, palestras e consultorias baseados em evidências.",
       cta: "Solicitar proposta",
     },
   ],
@@ -106,13 +113,15 @@ export const sobre = {
   eyebrow: "Sobre mim",
   title: "Nadya Tanan",
   paragraphs: [
-    "Sou psicóloga clínica e neuropsicóloga. Acredito em uma clínica atenta, sem pressa e feita a duas vozes — onde o consultório vira um lugar seguro para revisitar histórias, nomear o que dói e imaginar novos caminhos.",
-    "Meu trabalho reúne rigor técnico e uma escuta afetiva. Atendo adolescentes e adultos em processos de terapia e avaliação, sempre respeitando o tempo de cada pessoa.",
+    "Nenhuma história pode ser compreendida apenas pelos sintomas que apresenta.",
+    "É por isso que minha prática clínica busca integrar diferentes perspectivas sobre o funcionamento humano, unindo a escuta profunda da psicoterapia aos conhecimentos da neuropsicologia para compreender cada pessoa em sua singularidade.",
+    "Mais do que aliviar o sofrimento, acredito em um processo terapêutico que favoreça autoconhecimento, elaboração emocional e transformação. Um espaço em que seja possível compreender padrões, ressignificar experiências e desenvolver novas formas de viver e de se relacionar consigo e com o mundo.",
+    "Meu compromisso é oferecer uma clínica ética, cuidadosa e fundamentada cientificamente, respeitando o tempo, a história e a complexidade de cada paciente.",
   ],
   credentials: [
-    { label: "Formação", value: "Graduação em Psicologia — [Universidade]" },
-    { label: "Especialização", value: "Neuropsicologia clínica — [Instituição]" },
-    { label: "Abordagem", value: "Psicoterapia integrativa de base fenomenológica" },
+    { label: "Registro", value: "CRP 06/222362" },
+    { label: "Atuação", value: "Psicoterapia e avaliação neuropsicológica" },
+    { label: "Abordagem", value: "Psicanálise integrada à Neuropsicologia" },
   ],
 };
 
@@ -149,28 +158,44 @@ export const faq = {
   title: "Perguntas frequentes",
   items: [
     {
-      q: "Como funciona a primeira consulta?",
-      a: "O primeiro encontro é uma conversa de acolhimento: entendemos o que te trouxe, esclarecemos dúvidas e alinhamos como o processo pode acontecer.",
+      q: "Como saber se preciso de terapia?",
+      a: "Se você percebe que ansiedade, estresse, insegurança, dificuldades nos relacionamentos ou sofrimento emocional têm impactado sua qualidade de vida, a psicoterapia pode ajudar. Não é necessário esperar que o problema se torne insustentável para buscar cuidado.",
     },
     {
-      q: "Qual a duração das sessões?",
-      a: "As sessões de terapia têm em média 50 minutos. Avaliações neuropsicológicas variam conforme o protocolo, com encontros de cerca de 60–90 minutos.",
+      q: "Como funciona a primeira sessão?",
+      a: "A primeira sessão é um espaço de acolhimento e compreensão da sua história, das suas necessidades e dos objetivos que deseja alcançar. Também conversamos sobre como funciona o processo terapêutico e esclarecemos todas as dúvidas.",
     },
     {
-      q: "Você atende por plano de saúde?",
-      a: "No momento, o atendimento é particular. Emito recibo para reembolso pelo seu plano, quando previsto em contrato.",
+      q: "Quanto tempo dura cada sessão?",
+      a: "As sessões têm duração aproximada de 50 minutos e acontecem semanalmente.",
     },
     {
-      q: "As sessões online funcionam?",
-      a: "Sim. O atendimento online segue os mesmos princípios éticos e a mesma qualidade técnica do presencial, em plataforma segura.",
+      q: "O atendimento é online ou presencial?",
+      a: "Os atendimentos podem ser realizados de forma online ou presencial, conforme sua preferência e disponibilidade.",
     },
     {
-      q: "E se eu precisar remarcar ou cancelar?",
-      a: "Remarcações podem ser feitas com até 24h de antecedência, sem custo. Após esse prazo, a sessão é cobrada integralmente.",
+      q: "Qual a diferença entre psicoterapia e conversar com alguém?",
+      a: "A psicoterapia é um processo conduzido por um profissional qualificado, baseado em conhecimento científico e técnicas clínicas que ajudam a compreender padrões emocionais, pensamentos e comportamentos, promovendo mudanças consistentes.",
     },
     {
-      q: "Quanto tempo dura o processo terapêutico?",
-      a: "Depende dos seus objetivos e do seu ritmo. Alguns processos são curtos e focais, outros mais longos — sempre conversados juntos.",
+      q: "Como funciona a abordagem da psicoterapia?",
+      a: "Meu trabalho integra a Psicanálise e conhecimentos da Neuropsicologia para compreender não apenas os sintomas, mas também a história, as emoções e os processos cognitivos envolvidos em cada experiência.",
+    },
+    {
+      q: "Quanto tempo dura um processo terapêutico?",
+      a: "Não existe um tempo pré-determinado. A duração depende dos objetivos, da complexidade das questões trabalhadas e do ritmo de cada pessoa.",
+    },
+    {
+      q: "Tudo o que eu disser ficará em sigilo?",
+      a: "Sim. O atendimento psicológico é protegido pelo sigilo profissional previsto no Código de Ética da Psicologia.",
+    },
+    {
+      q: "Com que frequência acontecem as sessões?",
+      a: "Em geral, os encontros são semanais, pois essa frequência favorece a continuidade do processo terapêutico.",
+    },
+    {
+      q: "A terapia realmente funciona?",
+      a: "A psicoterapia possui ampla evidência científica para o tratamento de diferentes demandas emocionais, além de favorecer autoconhecimento, desenvolvimento emocional e melhora na qualidade de vida.",
     },
   ],
 };
