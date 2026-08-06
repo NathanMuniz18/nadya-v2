@@ -64,7 +64,7 @@ export function AreaAtuacao() {
                   <p className="mt-4 text-brown/80 leading-relaxed">{s.text}</p>
                   <p className="mt-3 text-sm text-brown/65 leading-relaxed">{s.detail}</p>
                   <a
-                    href={site.whatsappUrl}
+                    href={(s as { link?: string }).link ?? site.whatsappUrl}
                     target="_blank"
                     rel="noreferrer"
                     className="mt-auto pt-6 inline-flex items-center gap-2 text-brown hover:text-caramel transition-colors self-start"
