@@ -7,22 +7,22 @@ const iconMap = { "message-circle": MessageCircle, brain: Brain, briefcase: Brie
 
 export function AreaAtuacao() {
   return (
-    <section id="atuacao" className="py-24 md:py-32 bg-navy relative overflow-hidden">
-      <SignatureMark className="absolute -right-32 -bottom-16 w-[600px] text-white opacity-[0.05]" />
+    <section id="atuacao" className="py-24 md:py-32 bg-[color:var(--beige)] relative overflow-hidden">
+      <SignatureMark className="absolute -right-32 -bottom-16 w-[600px] text-caramel opacity-[0.08]" />
 
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid md:grid-cols-12 gap-10 items-end mb-16">
           <div className="md:col-span-7">
-            <div className="text-xs tracking-[0.28em] uppercase text-[color:var(--beige)] mb-4">
+            <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
               {atuacao.eyebrow}
             </div>
-            <h2 className="font-display text-4xl md:text-6xl text-[color:var(--beige)] leading-[1.05] whitespace-pre-line">
+            <h2 className="font-display text-4xl md:text-6xl text-brown leading-[1.05] whitespace-pre-line">
               {atuacao.title}
             </h2>
           </div>
           <div className="md:col-span-4 md:col-start-9">
-            <p className="text-[color:var(--beige)]/80 leading-relaxed">{atuacao.lead}</p>
+            <p className="text-brown/80 leading-relaxed">{atuacao.lead}</p>
           </div>
         </div>
 
@@ -50,22 +50,24 @@ export function AreaAtuacao() {
               return (
                 <div
                   key={s.title}
-                  className="bg-[color:var(--beige)] rounded-3xl p-7 md:p-8 flex flex-col group h-full"
+                  className="bg-white/60 border border-caramel/25 rounded-3xl p-7 md:p-8 flex flex-col group h-full"
                 >
-                  <div className="h-14 w-14 rounded-2xl bg-navy/10 flex items-center justify-center text-navy mb-4">
+                  <div className="h-14 w-14 rounded-2xl bg-caramel/15 flex items-center justify-center text-caramel mb-4">
                     <Icon className="h-6 w-6" />
                   </div>
-                  <div className="text-[10px] tracking-[0.3em] text-navy/60 mb-2">
+                  <div className="text-[10px] tracking-[0.3em] text-brown/60 mb-2">
                     Serviço 0{i + 1}
                   </div>
-                  <h3 className="font-display text-2xl md:text-3xl text-navy">{s.title}</h3>
-                  <p className="mt-4 text-navy/80 leading-relaxed">{s.text}</p>
-                  <p className="mt-3 text-sm text-navy/65 leading-relaxed">{s.detail}</p>
+                  <h3 className="font-display text-2xl md:text-[1.75rem] leading-tight text-brown break-words hyphens-auto">
+                    {s.title}
+                  </h3>
+                  <p className="mt-4 text-brown/80 leading-relaxed">{s.text}</p>
+                  <p className="mt-3 text-sm text-brown/65 leading-relaxed">{s.detail}</p>
                   <a
                     href={site.whatsappUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="mt-auto pt-6 inline-flex items-center gap-2 text-navy hover:text-caramel transition-colors self-start"
+                    className="mt-auto pt-6 inline-flex items-center gap-2 text-brown hover:text-caramel transition-colors self-start"
                   >
                     <span className="border-b border-caramel pb-1">{s.cta}</span>
                     <ArrowUpRight className="h-4 w-4" />
