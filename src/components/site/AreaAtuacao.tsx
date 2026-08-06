@@ -1,6 +1,6 @@
 import { MessageCircle, Brain, Briefcase, ArrowUpRight } from "lucide-react";
 import { atuacao, site } from "@/data/content";
-import areaImg from "@/assets/nadya-area.jpg.asset.json";
+import areaImg from "@/assets/nadya-foto-area-atuacao.jpg";
 import { SignatureMark } from "./Logo";
 
 const iconMap = { "message-circle": MessageCircle, brain: Brain, briefcase: Briefcase };
@@ -32,7 +32,7 @@ export function AreaAtuacao() {
           <div className="lg:col-span-4 relative">
             <div className="relative h-full min-h-[520px] lg:min-h-[620px] rounded-3xl overflow-hidden">
               <img
-                src={areaImg.url}
+                src={areaImg}
                 alt="Nadya Tanan trabalhando com tablet"
                 className="absolute inset-0 w-full h-full object-cover"
               />

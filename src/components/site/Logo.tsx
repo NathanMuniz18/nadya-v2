@@ -1,7 +1,7 @@
-import logoAsset from "@/assets/logo-nadya.png.asset.json";
+import logoAsset from "@/assets/logo_sem_fundo.png";
 
 export function Logo({ className = "" }: { className?: string }) {
-  return <img src={logoAsset.url} alt="Nadya Tanan" className={className} />;
+  return <img src={logoAsset} alt="Nadya Tanan" className={className} />;
 }
 
 /**

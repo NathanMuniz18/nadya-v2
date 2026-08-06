@@ -1,4 +1,4 @@
-import sobreImg from "@/assets/nadya-sobre.jpg.asset.json";
+import sobreImg from "@/assets/nadya-foto-sobre-mim.jpg";
 import { sobre, site } from "@/data/content";
 
 export function SobreMim() {
@@ -11,7 +11,7 @@ export function SobreMim() {
               <div className="absolute inset-0 translate-x-6 translate-y-6 bg-caramel rounded-3xl" />
               <div className="relative w-full h-full overflow-hidden rounded-3xl">
                 <img
-                  src={sobreImg.url}
+                  src={sobreImg}
                   alt="Nadya Tanan sentada, retrato completo"
                   className="w-full h-full object-cover"
                 />

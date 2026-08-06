@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import heroImg from "@/assets/nadya-hero.jpg.asset.json";
+import heroImg from "@/assets/nadya-foto-hero.jpg";
 import { hero, site } from "@/data/content";
 import { SignatureMark } from "./Logo";
 
@@ -61,7 +61,7 @@ export function Hero() {
             <div className="absolute -inset-4 border border-caramel/40 rounded-tl-[120px] rounded-br-[120px]" />
             <div className="relative w-full h-full overflow-hidden rounded-tl-[110px] rounded-br-[110px]">
               <img
-                src={heroImg.url}
+                src={heroImg}
                 alt="Retrato de Nadya Tanan, psicóloga e neuropsicóloga"
                 className="w-full h-full object-cover"
               />
