@@ -59,7 +59,8 @@ export function AreaAtuacao() {
                     Serviço 0{i + 1}
                   </div>
                   <h3 className="font-display text-2xl md:text-3xl text-navy">{s.title}</h3>
-                  <p className="mt-4 text-navy/70 leading-relaxed">{s.text}</p>
+                  <p className="mt-4 text-navy/80 leading-relaxed">{s.text}</p>
+                  <p className="mt-3 text-sm text-navy/65 leading-relaxed">{s.detail}</p>
                   <a
                     href={site.whatsappUrl}
                     target="_blank"
