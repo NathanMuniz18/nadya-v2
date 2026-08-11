@@ -24,7 +24,7 @@ export function Header() {
           <Logo className="h-11 w-auto" />
           <div className="hidden sm:block leading-tight">
             <div className="font-display text-brown text-lg">{site.name}</div>
-            <div className="text-[11px] tracking-[0.18em] uppercase text-caramel">
+            <div className="text-[11px] tracking-[0.18em] text-caramel">
               {site.role}
             </div>
           </div>
