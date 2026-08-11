@@ -4,7 +4,7 @@ export const site = {
   name: "Nadya Tanan",
   role: "Psicóloga e Neuropsicóloga",
   crp: "CRP 06/222362",
-  whatsappUrl: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20conversa.",
+  whatsappUrl: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Estou%20vindo%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20conversa.",
   whatsappLabel: "Conversar no WhatsApp",
   email: "psiconadyatanan@gmail.com",
   phone: "(11) 93762-6205",
@@ -86,7 +86,7 @@ export const atuacao = {
       detail:
         "Um processo individual que integra Psicanálise e Neuropsicologia para promover autoconhecimento, regulação emocional e relações mais saudáveis, respeitando a singularidade de cada história.",
       cta: "Conheça o processo",
-      link: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20me%20interessei%20na%20Psicoterapia.",
+      link: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Estou%20vindo%20pelo%20site%20e%20me%20interessei%20na%20Psicoterapia.",
     },
     {
       icon: "brain",
@@ -96,7 +96,7 @@ export const atuacao = {
       detail:
         "Avaliações completas com instrumentos científicos e análise clínica aprofundada para investigação de funções cognitivas, transtornos do neurodesenvolvimento, alterações emocionais e funcionamento intelectual. Laudo técnico, devolutiva detalhada e orientações personalizadas.",
       cta: "Entenda como funciona",
-      link: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20me%20interessei%20na%20Avalia%C3%A7%C3%A3o%20Neuropsicol%C3%B3gica.",
+      link: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Estou%20vindo%20pelo%20site%20e%20me%20interessei%20na%20Avalia%C3%A7%C3%A3o%20Neuropsicol%C3%B3gica.",
     },
     {
       icon: "briefcase",
@@ -106,7 +106,7 @@ export const atuacao = {
       detail:
         "Projetos personalizados para empresas que desejam desenvolver ambientes psicologicamente seguros, prevenir adoecimento emocional e potencializar desempenho por meio da saúde mental. Treinamentos, palestras e consultorias baseados em evidências.",
       cta: "Solicitar proposta",
-      link: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20me%20interessei%20na%20Consultoria%20em%20Sa%C3%BAde%20Mental.",
+      link: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Estou%20vindo%20pelo%20site%20e%20me%20interessei%20na%20Consultoria%20em%20Sa%C3%BAde%20Mental.",
     },
   ],
 };
