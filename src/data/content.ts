@@ -6,10 +6,10 @@ export const site = {
   crp: "CRP 06/222362",
   whatsappUrl: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20conversa.",
   whatsappLabel: "Conversar no WhatsApp",
-  email: "contato@nadyatanan.com.br",
+  email: "psiconadyatanan@gmail.com",
   phone: "(11) 93762-6205",
   hours: "Segunda a sexta · 09h às 19h",
-  instagram: "https://instagram.com/",
+  instagram: "https://www.instagram.com/psico.nadyatanan",
   linkedin: "https://www.linkedin.com/in/nadyatanan/",
 };
 
@@ -116,10 +116,9 @@ export const sobre = {
   eyebrow: "Sobre mim",
   title: "Nadya Tanan",
   paragraphs: [
-    "Nenhuma história pode ser compreendida apenas pelos sintomas que apresenta.",
-    "É por isso que minha prática clínica busca integrar diferentes perspectivas sobre o funcionamento humano, unindo a escuta profunda da psicoterapia aos conhecimentos da neuropsicologia para compreender cada pessoa em sua singularidade.",
-    "Mais do que aliviar o sofrimento, acredito em um processo terapêutico que favoreça autoconhecimento, elaboração emocional e transformação. Um espaço em que seja possível compreender padrões, ressignificar experiências e desenvolver novas formas de viver e de se relacionar consigo e com o mundo.",
-    "Meu compromisso é oferecer uma clínica ética, cuidadosa e fundamentada cientificamente, respeitando o tempo, a história e a complexidade de cada paciente.",
+    "Antes de tudo, desejo boas vindas.",
+    "Sou Psicóloga e pós-graduanda em Neuropsicologia, com atuação clínica fundamentada na psicanálise e integrada aos conhecimentos da neurociência sobre o funcionamento humano.",
+    "Acredito que cada pessoa possui uma história única e que nenhum sofrimento pode ser compreendido apenas pelos sintomas que apresenta. Por isso, meu compromisso é oferecer uma clínica ética, acolhedora e cientificamente fundamentada, proporcionando um espaço seguro para que você encontre não apenas respostas, mas desenvolva recursos internos para viver com mais consciência, autonomia, equilíbrio emocional e qualidade de vida.",
   ],
   credentials: [
     { label: "Registro", value: "CRP 06/222362" },
@@ -145,7 +144,7 @@ export const depoimentos = {
     {
       stars: 5,
       text:
-        "Eu nem cogitava novamente realizar terapia pois achava que seria um ambiente ruim. Quando conheci você, todas as minhas expectativas ruins e estigmas caíram por terra. Você tornou o ambiente seguro, leve e acolhedor. Eu sou tão grata pela sua escolha de ter sido profissional de psicologia que não consigo mensurar em palavras. Obrigada, de verdade. Você jamais me julgou e sempre me ouve com imensa atenção. Que grande profissional você é. Você me ajudou de formas que não imagina como. Eu tinha desistido de viver e você foi um instrumento para eu descobrir verdadeiro amor pela vida e perceber que delícia que é viver. Viver do meu jeito, com os meus objetivos, com o meu olhar e não com o do outro. Obrigada, mil vezes obrigada. 💖",
+        "Nadya, é uma psicóloga excelente, calma, acolhedora, uma escuta ativa, traz posicionamento excelentes quando necessário e estou tendo uma evolução incrível. A cada sessão que saio da terapia tenho construção importante no meu processo terapêutico!",
     },
   ],
 };

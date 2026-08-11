@@ -62,7 +62,7 @@ export function Hero() {
             <div className="relative w-full h-full overflow-hidden rounded-tl-[110px] rounded-br-[110px]">
               <img
                 src={heroImg}
-                alt="Retrato de Nadya Tanan, psicóloga e neuropsicóloga"
+                alt="Retrato de Nadya Tanan, Psicóloga e Neuropsicóloga"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-[color:var(--caramel)] mix-blend-multiply opacity-[0.06]" />
