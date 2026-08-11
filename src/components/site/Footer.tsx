@@ -11,7 +11,7 @@ export function Footer() {
             <Logo className="h-12 w-auto" />
             <div>
               <div className="font-display text-brown text-xl">{site.name}</div>
-              <div className="text-[10px] tracking-[0.24em] uppercase text-caramel">{site.role.toUpperCase()}</div>
+              <div className="text-[10px] tracking-[0.24em] uppercase text-caramel">{site.role}</div>
             </div>
           </div>
           <p className="mt-6 text-[color:var(--gray-body)] leading-relaxed max-w-md">
