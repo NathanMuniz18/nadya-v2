@@ -119,7 +119,7 @@ export const sobre = {
     "Sou Psicóloga e pós-graduanda em Neuropsicologia, com atuação clínica fundamentada na psicanálise e integrada aos conhecimentos da neurociência sobre o funcionamento humano.",
     "Acredito que cada pessoa possui uma história única e que nenhum sofrimento pode ser compreendido apenas pelos sintomas que apresenta. Por isso, meu compromisso é oferecer uma clínica ética, acolhedora e cientificamente fundamentada, proporcionando um espaço seguro para que você encontre não apenas respostas, mas desenvolva recursos internos para viver com mais consciência, autonomia, equilíbrio emocional e qualidade de vida.",
   ],
-  credentials: [],
+  
 };
 
 export const depoimentos = {

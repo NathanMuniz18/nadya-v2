@@ -1,4 +1,4 @@
-import { Mail, Phone, Clock, ArrowRight } from "lucide-react";
+import { Mail, Phone, ArrowRight } from "lucide-react";
 import { contato, site } from "@/data/content";
 import { SignatureMark } from "./Logo";
 
@@ -35,7 +35,6 @@ export function Contato() {
           {[
             { Icon: Phone, label: "Telefone", value: site.phone },
             { Icon: Mail, label: "E-mail", value: site.email },
-            { Icon: Clock, label: "Horários", value: site.hours },
           ].map(({ Icon, label, value }) => (
             <li key={label} className="flex items-start gap-5">
               <div className="h-12 w-12 shrink-0 rounded-full border border-caramel/40 flex items-center justify-center text-caramel">

@@ -21,9 +21,6 @@ export function AreaAtuacao() {
               {atuacao.title}
             </h2>
           </div>
-          <div className="md:col-span-4 md:col-start-9">
-            <p className="text-brown/80 leading-relaxed">{atuacao.lead}</p>
-          </div>
         </div>
 
 
@@ -38,8 +35,7 @@ export function AreaAtuacao() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brown/60 via-transparent to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-[color:var(--beige)]">
-                <div className="text-[10px] tracking-[0.28em] uppercase opacity-80">Método</div>
-                <div className="font-display text-xl mt-2">Escuta técnica, cuidado autoral.</div>
+                <div className="font-display text-xl">Escuta técnica, cuidado autoral.</div>
               </div>
             </div>
           </div>

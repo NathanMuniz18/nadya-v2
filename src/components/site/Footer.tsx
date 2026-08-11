@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, MessageCircle } from "lucide-react";
+import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa6";
 import { Logo } from "./Logo";
 import { site, nav } from "@/data/content";
 
@@ -19,9 +19,9 @@ export function Footer() {
           </p>
           <div className="mt-6 flex gap-3">
             {[
-              { Icon: Instagram, href: site.instagram, label: "Instagram" },
-              { Icon: MessageCircle, href: site.whatsappUrl, label: "WhatsApp" },
-              { Icon: Linkedin, href: site.linkedin, label: "LinkedIn" },
+              { Icon: FaInstagram, href: site.instagram, label: "Instagram" },
+              { Icon: FaWhatsapp, href: site.whatsappUrl, label: "WhatsApp" },
+              { Icon: FaLinkedinIn, href: site.linkedin, label: "LinkedIn" },
             ].map(({ Icon, href, label }) => (
               <a
                 key={label}

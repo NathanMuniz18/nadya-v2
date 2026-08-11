@@ -27,7 +27,7 @@ export function SobreMim() {
             <h2 className="font-display text-5xl md:text-6xl text-brown leading-[1.05]">
               {sobre.title}
               <span className="block text-caramel italic text-3xl md:text-4xl mt-2">
-                {site.role.toLowerCase()}
+                {site.role.toUpperCase()}
               </span>
             </h2>
 
@@ -37,16 +37,6 @@ export function SobreMim() {
               ))}
             </div>
 
-            <dl className="mt-10 grid sm:grid-cols-3 gap-6 pt-8 border-t border-border">
-              {sobre.credentials.map((c) => (
-                <div key={c.label}>
-                  <dt className="text-[10px] tracking-[0.28em] uppercase text-caramel mb-2">
-                    {c.label}
-                  </dt>
-                  <dd className="text-brown font-display text-lg leading-snug">{c.value}</dd>
-                </div>
-              ))}
-            </dl>
           </div>
         </div>
       </div>
