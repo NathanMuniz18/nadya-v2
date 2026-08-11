@@ -13,7 +13,7 @@ export function FAQ() {
             <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
               {faq.eyebrow}
             </div>
-            <h2 className="font-display text-4xl md:text-5xl text-brown leading-[1.1]">
+            <h2 className="font-editorial text-4xl md:text-5xl text-brown leading-[1.1]">
               {faq.title}
             </h2>
             <p className="mt-6 text-[color:var(--gray-body)] leading-relaxed">

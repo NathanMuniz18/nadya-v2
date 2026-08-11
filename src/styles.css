@@ -116,3 +116,9 @@
 @utility bg-brown { background-color: var(--brown); }
 @utility bg-navy { background-color: var(--navy); }
 @utility border-caramel { border-color: var(--caramel); }
+
+@utility font-editorial {
+  font-family: "Lora", "Cormorant Garamond", ui-serif, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
