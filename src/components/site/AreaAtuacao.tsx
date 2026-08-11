@@ -17,7 +17,7 @@ export function AreaAtuacao() {
             <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
               {atuacao.eyebrow}
             </div>
-            <h2 className="font-display text-4xl md:text-6xl text-brown leading-[1.1] whitespace-pre-line">
+            <h2 className="font-editorial text-4xl md:text-6xl text-brown leading-[1.1] whitespace-pre-line">
               {atuacao.title}
             </h2>
           </div>
