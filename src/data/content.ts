@@ -18,7 +18,7 @@ export const nav = [
   { href: "#como-ajudo", label: "Como te ajudo" },
   { href: "#atuacao", label: "Área de atuação" },
   { href: "#sobre", label: "Sobre mim" },
-  { href: "#depoimentos", label: "Depoimentos" },
+  { href: "#depoimentos", label: "Feedbacks" },
   { href: "#faq", label: "FAQ" },
   { href: "#contato", label: "Contato" },
 ];
@@ -76,8 +76,7 @@ export const comoAjudo = {
 export const atuacao = {
   eyebrow: "Área de atuação",
   title: "Uma atuação integrada para compreender\na totalidade da sua jornada",
-  lead:
-    "Psicoterapia, avaliação neuropsicológica e consultoria — sempre com base em evidência e respeito pelo tempo de cada pessoa.",
+  lead: "",
   services: [
     {
       icon: "message-circle",
@@ -120,15 +119,11 @@ export const sobre = {
     "Sou Psicóloga e pós-graduanda em Neuropsicologia, com atuação clínica fundamentada na psicanálise e integrada aos conhecimentos da neurociência sobre o funcionamento humano.",
     "Acredito que cada pessoa possui uma história única e que nenhum sofrimento pode ser compreendido apenas pelos sintomas que apresenta. Por isso, meu compromisso é oferecer uma clínica ética, acolhedora e cientificamente fundamentada, proporcionando um espaço seguro para que você encontre não apenas respostas, mas desenvolva recursos internos para viver com mais consciência, autonomia, equilíbrio emocional e qualidade de vida.",
   ],
-  credentials: [
-    { label: "Registro", value: "CRP 06/222362" },
-    { label: "Atuação", value: "Psicoterapia e avaliação neuropsicológica" },
-    { label: "Abordagem", value: "Psicanálise integrada à Neuropsicologia" },
-  ],
+  
 };
 
 export const depoimentos = {
-  eyebrow: "Depoimentos",
+  eyebrow: "Feedbacks",
   title: "O que meus pacientes contam",
   items: [
     {
