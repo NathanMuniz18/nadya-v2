@@ -25,7 +25,7 @@ export function Header() {
           <div className="hidden sm:block leading-tight">
             <div className="font-display text-brown text-lg">{site.name}</div>
             <div className="text-[11px] tracking-[0.18em] uppercase text-caramel">
-              {site.role}
+              {site.role.toUpperCase()}
             </div>
           </div>
         </a>
