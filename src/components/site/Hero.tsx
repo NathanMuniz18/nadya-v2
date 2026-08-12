@@ -18,7 +18,7 @@ export function Hero() {
           <h1 className="font-playfair text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.05] text-brown whitespace-pre-line">
             {hero.title.split("\n").map((line, i) => (
               <span key={i} className="block">
-                {i === 1 ? <em className="font-playfair font-normal italic text-caramel">{line}</em> : <span className="font-playfair">{line}</span>}
+                {i === 1 ? <em className="font-playfair font-light italic text-caramel">{line}</em> : <span className="font-playfair">{line}</span>}
               </span>
             ))}
           </h1>
