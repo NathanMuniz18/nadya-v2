@@ -15,10 +15,19 @@ export function Hero() {
           <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-6">
             {hero.eyebrow}
           </div>
-          <h1 className="font-playfair text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.05] text-brown whitespace-pre-line">
+          <h1 className="font-display text-[clamp(2.5rem,6vw,4.75rem)] leading-[1.05] text-brown whitespace-pre-line">
             {hero.title.split("\n").map((line, i) => (
               <span key={i} className="block">
-                {i === 1 ? <em className="font-playfair font-light italic text-caramel">{line}</em> : <span className="font-playfair">{line}</span>}
+                {i === 1 ? (
+                  <em
+                    className="font-display italic text-caramel"
+                    style={{ fontVariationSettings: '"SOFT" 50, "WONK" 0, "wght" 275', fontWeight: 275 }}
+                  >
+                    {line}
+                  </em>
+                ) : (
+                  <span className="font-display" style={{ fontWeight: 400 }}>{line}</span>
+                )}
               </span>
             ))}
           </h1>
