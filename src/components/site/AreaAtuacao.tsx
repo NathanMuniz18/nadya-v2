@@ -17,7 +17,7 @@ export function AreaAtuacao() {
             <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
               {atuacao.eyebrow}
             </div>
-            <h2 className="font-editorial text-4xl md:text-6xl text-brown leading-[1.1] whitespace-pre-line">
+            <h2 className="font-julius text-4xl md:text-6xl text-brown leading-[1.1] whitespace-pre-line">
               {atuacao.title}
             </h2>
           </div>
@@ -31,7 +31,7 @@ export function AreaAtuacao() {
               <img
                 src={areaImg}
                 alt="Nadya Tanan trabalhando com tablet"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full object-cover object-top md:object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brown/60 via-transparent to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-[color:var(--beige)]">
