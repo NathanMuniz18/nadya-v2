@@ -24,7 +24,7 @@ export function SobreMim() {
             <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
               {sobre.eyebrow}
             </div>
-            <h2 className="font-display text-5xl md:text-6xl text-brown leading-[1.05]">
+            <h2 className="font-montserrat font-semibold text-5xl md:text-6xl text-brown leading-[1.05]">
               {sobre.title}
               <span className="block text-caramel italic text-3xl md:text-4xl mt-2">
                 {site.role}

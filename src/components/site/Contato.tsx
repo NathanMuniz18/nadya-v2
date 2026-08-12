@@ -13,7 +13,7 @@ export function Contato() {
           <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
             {contato.eyebrow}
           </div>
-          <h2 className="font-editorial text-5xl md:text-6xl leading-[1.1] whitespace-pre-line" style={{color:'var(--beige)'}}>
+          <h2 className="font-julius text-5xl md:text-6xl leading-[1.1] whitespace-pre-line" style={{color:'var(--beige)'}}>
             {contato.title}
           </h2>
           <p className="mt-8 text-[color:var(--beige)]/75 text-lg leading-relaxed max-w-lg">
