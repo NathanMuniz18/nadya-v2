@@ -26,7 +26,7 @@ export function SobreMim() {
             </div>
             <h2 className="font-montserrat font-semibold text-5xl md:text-6xl text-brown leading-[1.05]">
               {sobre.title}
-              <span className="block text-caramel italic text-3xl md:text-4xl mt-2">
+              <span className="block font-display font-light italic text-caramel text-3xl md:text-4xl mt-2">
                 {site.role}
               </span>
             </h2>
