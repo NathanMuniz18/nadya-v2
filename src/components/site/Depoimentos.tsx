@@ -10,7 +10,7 @@ export function Depoimentos() {
           <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
             {depoimentos.eyebrow}
           </div>
-          <h2 className="font-editorial text-4xl md:text-5xl leading-[1.15]" style={{color:'var(--beige)'}}>
+          <h2 className="font-playfair text-4xl md:text-5xl leading-[1.15]" style={{color:'var(--beige)'}}>
             {depoimentos.title}
           </h2>
         </div>

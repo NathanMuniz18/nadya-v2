@@ -12,7 +12,7 @@ export function ComoAjudo() {
             <div className="text-xs tracking-[0.28em] uppercase text-caramel mb-4">
               {comoAjudo.eyebrow}
             </div>
-            <h2 className="font-julius text-4xl md:text-5xl text-brown leading-[1.1]">
+            <h2 className="font-playfair text-4xl md:text-5xl text-brown leading-[1.1]">
               {comoAjudo.title}
             </h2>
           </div>
