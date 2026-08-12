@@ -122,3 +122,14 @@
   font-weight: 500;
   letter-spacing: 0.01em;
 }
+
+@utility font-julius {
+  font-family: "Julius Sans One", ui-sans-serif, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.015em;
+}
+
+@utility font-montserrat {
+  font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.01em;
+}
