@@ -133,3 +133,9 @@
   font-family: "Montserrat", ui-sans-serif, system-ui, sans-serif;
   letter-spacing: -0.01em;
 }
+
+@utility font-playfair {
+  font-family: "Playfair Display", "Fraunces", ui-serif, Georgia, serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+}
