@@ -24,7 +24,7 @@ export const nav = [
 ];
 
 export const hero = {
-  eyebrow: "Psicologia clínica & Neuropsicologia",
+  eyebrow: "Psicóloga e Neuropsicóloga",
   title:
     "Entre aquilo que você vive e aquilo que sua mente constrói,\nexiste uma história que merece ser compreendida.",
   lead:

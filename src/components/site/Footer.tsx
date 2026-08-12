@@ -15,7 +15,7 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-6 text-[color:var(--gray-body)] leading-relaxed max-w-md">
-            Psicologia clínica e neuropsicologia para adolescentes e adultos, no presencial e online.
+            Psicóloga e Neuropsicóloga para adolescentes e adultos, no presencial e online.
           </p>
           <div className="mt-6 flex gap-3">
             {[

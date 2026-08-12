@@ -17,7 +17,7 @@ export function FAQ() {
               {faq.title}
             </h2>
             <p className="mt-6 text-[color:var(--gray-body)] leading-relaxed">
-              Se sua dúvida não está aqui, escreva no WhatsApp — respondo pessoalmente.
+              Se sua dúvida não está aqui, escreva pelo WhatsApp. Responderei pessoalmente.
             </p>
           </div>
 
