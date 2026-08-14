@@ -6,7 +6,7 @@ export function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="py-24 md:py-32 bg-cream">
+    <section id="faq" className="py-24 md:py-32" style={{ backgroundColor: "#564E47" }}>
       <div className="max-w-6xl mx-auto px-6 md:px-10">
         <div className="grid md:grid-cols-12 gap-12">
           <div className="md:col-span-4">
@@ -16,7 +16,7 @@ export function FAQ() {
             <h2 className="font-playfair text-4xl md:text-5xl text-brown leading-[1.1]">
               {faq.title}
             </h2>
-            <p className="mt-6 text-[color:var(--gray-body)] leading-relaxed">
+            <p className="mt-6 text-[color:var(--taupe)] leading-relaxed">
               Se sua dúvida não está aqui, escreva pelo WhatsApp. Responderei pessoalmente.
             </p>
           </div>
@@ -44,7 +44,7 @@ export function FAQ() {
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <p className="text-[color:var(--gray-body)] leading-relaxed max-w-2xl">
+                        <p className="text-[color:var(--taupe)] leading-relaxed max-w-2xl">
                           {item.a}
                         </p>
                       </div>
