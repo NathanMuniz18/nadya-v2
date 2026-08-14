@@ -51,7 +51,7 @@ export function Hero() {
               href={site.whatsappUrl}
               target="_blank"
               rel="noreferrer"
-              className="group inline-flex items-center gap-2 bg-navy text-white px-7 py-4 rounded-full hover:bg-navy/80 transition-colors"
+              className="group inline-flex items-center gap-2 bg-espresso text-white px-7 py-4 rounded-full hover:bg-navy transition-colors"
             >
               {hero.ctaPrimary}
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
