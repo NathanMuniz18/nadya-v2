@@ -54,10 +54,10 @@
   --brown: #ece8e7;            /* off-white — texto principal sobre fundo escuro */
   --navy: #2c261e;            /* marrom quase preto — fundos escuros de destaque */
   --espresso: #1d140e;        /* marrom profundo — maior contraste */
-  --gray-body: #a49b91;       /* taupe — corpo de texto */
+  --gray-body: #c4beb8;       /* taupe — corpo de texto */
   --beige: #d8cdc0;           /* bege claro — texto/detalhes de destaque */
   --beige-gray: #baafa2;      /* bege acinzentado — detalhes */
-  --taupe: #a49b91;           /* taupe — bordas / ícones neutros */
+  --taupe: #cec5b8;           /* taupe — bordas / ícones neutros */
   --cream: #2c261e;           /* seções escuras alternadas */
 
   --font-serif: "Fraunces", "Cormorant Garamond", ui-serif, Georgia, serif;
