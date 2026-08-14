@@ -47,7 +47,7 @@ export function Header() {
             href={site.whatsappUrl}
             target="_blank"
             rel="noreferrer"
-            className="hidden md:inline-flex items-center gap-2 bg-caramel text-[color:var(--espresso)] px-5 py-2.5 rounded-full text-sm hover:bg-[color:var(--beige)] transition-colors"
+            className="inline-flex items-center gap-2 bg-caramel text-[color:var(--espresso)] px-3.5 py-2 rounded-full text-xs md:px-5 md:py-2.5 md:text-sm hover:bg-[color:var(--beige)] transition-colors"
           >
             Agendar conversa
           </a>
