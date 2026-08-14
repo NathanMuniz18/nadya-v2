@@ -7,7 +7,7 @@ const iconMap = { "message-circle": MessageCircle, brain: Brain, briefcase: Brie
 
 export function AreaAtuacao() {
   return (
-    <section id="atuacao" className="py-24 md:py-32 bg-cream relative overflow-hidden">
+    <section id="atuacao" className="pt-24 pb-32 md:py-32 bg-cream relative overflow-hidden">
       <SignatureMark className="absolute -right-32 -bottom-16 w-[600px] text-caramel opacity-[0.08]" />
 
 
@@ -34,7 +34,7 @@ export function AreaAtuacao() {
                 className="absolute inset-0 w-full h-full object-cover object-top md:object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[color:var(--espresso)]/70 via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-[color:var(--beige)]">
+              <div className="absolute bottom-0 left-0 right-0 p-6 pb-8 text-[color:var(--beige)]">
                 <div className="font-display text-xl">Escuta técnica, cuidado autoral.</div>
               </div>
             </div>
