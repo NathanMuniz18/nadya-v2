@@ -23,7 +23,7 @@ export function ComoAjudo() {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px rounded-3xl overflow-hidden" style={{ backgroundColor: "rgba(164, 155, 145, 0.25)" }}>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px rounded-3xl overflow-hidden" style={{ backgroundColor: "rgba(236, 232, 231, 0.18)" }}>
           {comoAjudo.items.map((item, i) => {
             const Icon = iconMap[item.icon as keyof typeof iconMap];
             return (
