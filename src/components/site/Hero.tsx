@@ -1,13 +1,9 @@
 import { ArrowRight } from "lucide-react";
 import heroImg from "@/assets/nadya-foto-hero.jpg";
 import { hero, site } from "@/data/content";
-import { SignatureMark } from "./Logo";
-
 export function Hero() {
   return (
     <section id="hero" className="relative pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden bg-cream">
-      {/* Signature mark watermark */}
-      <SignatureMark className="absolute -left-24 top-24 w-[520px] text-caramel opacity-[0.08] pointer-events-none" />
       <div className="absolute right-0 top-0 h-full w-1/2 bg-[#2c261e]/70 -skew-x-6 origin-top-right hidden md:block" />
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 grid md:grid-cols-12 gap-10 items-center">
