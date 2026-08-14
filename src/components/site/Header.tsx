@@ -46,7 +46,7 @@ export function Header() {
           href={site.whatsappUrl}
           target="_blank"
           rel="noreferrer"
-          className="hidden md:inline-flex items-center gap-2 bg-espresso text-white px-5 py-2.5 rounded-full text-sm hover:bg-navy transition-colors"
+          className="hidden md:inline-flex items-center gap-2 bg-caramel text-[color:var(--espresso)] px-5 py-2.5 rounded-full text-sm hover:bg-[color:var(--beige)] transition-colors"
         >
           Agendar conversa
         </a>
@@ -77,7 +77,7 @@ export function Header() {
               href={site.whatsappUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center bg-espresso text-white px-5 py-3 rounded-full text-sm mt-2"
+              className="inline-flex items-center justify-center bg-caramel text-[color:var(--espresso)] px-5 py-3 rounded-full text-sm mt-2"
             >
               Agendar conversa
             </a>

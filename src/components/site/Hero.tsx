@@ -8,7 +8,7 @@ export function Hero() {
     <section id="hero" className="relative pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden bg-cream">
       {/* Signature mark watermark */}
       <SignatureMark className="absolute -left-24 top-24 w-[520px] text-caramel opacity-[0.08] pointer-events-none" />
-      <div className="absolute right-0 top-0 h-full w-1/2 bg-beige/60 -skew-x-6 origin-top-right hidden md:block" />
+      <div className="absolute right-0 top-0 h-full w-1/2 bg-[#2c261e]/70 -skew-x-6 origin-top-right hidden md:block" />
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 grid md:grid-cols-12 gap-10 items-center">
         <div className="md:col-span-6 lg:col-span-7">
@@ -39,7 +39,7 @@ export function Hero() {
             {hero.tags.map((t) => (
               <span
                 key={t}
-                className="text-xs tracking-wider uppercase px-3 py-1.5 rounded-full border border-navy/40 text-navy"
+                className="text-xs tracking-wider uppercase px-3 py-1.5 rounded-full border border-caramel/40 text-[color:var(--beige)]"
               >
                 {t}
               </span>
@@ -51,14 +51,14 @@ export function Hero() {
               href={site.whatsappUrl}
               target="_blank"
               rel="noreferrer"
-              className="group inline-flex items-center gap-2 bg-espresso text-white px-7 py-4 rounded-full hover:bg-navy transition-colors"
+              className="group inline-flex items-center gap-2 bg-caramel text-[color:var(--espresso)] px-7 py-4 rounded-full hover:bg-[color:var(--beige)] transition-colors"
             >
               {hero.ctaPrimary}
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
               href="#atuacao"
-              className="inline-flex items-center gap-2 text-navy px-7 py-4 rounded-full border border-navy/20 hover:border-navy/60 transition-colors"
+              className="inline-flex items-center gap-2 text-[color:var(--beige)] px-7 py-4 rounded-full border border-[color:var(--beige)]/25 hover:border-caramel transition-colors"
             >
               {hero.ctaSecondary}
             </a>
@@ -76,7 +76,7 @@ export function Hero() {
               />
               <div className="absolute inset-0 bg-[color:var(--caramel)] mix-blend-multiply opacity-[0.06]" />
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-navy text-[color:var(--beige)] px-5 py-4 rounded-2xl shadow-lg">
+            <div className="absolute -bottom-6 -left-6 bg-[color:var(--espresso)] text-[color:var(--beige)] px-5 py-4 rounded-2xl shadow-lg">
               <div className="text-[10px] tracking-[0.25em] uppercase opacity-70">CRP</div>
               <div className="font-display text-lg">{site.crp}</div>
             </div>

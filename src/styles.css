@@ -39,6 +39,7 @@
   --color-espresso: var(--espresso);
   --color-beige-gray: var(--beige-gray);
   --color-taupe: var(--taupe);
+  --color-coffee: var(--coffee);
   --font-serif: var(--font-serif);
   --font-sans: var(--font-sans);
 }
@@ -49,37 +50,38 @@
   /* Brand palette — nova paleta */
   --caramel: #c7a977;          /* mantido: eyebrows / etiquetas em caixa alta */
   --caramel-soft: #d9c19a;
-  --brown: #453225;            /* marrom café — texto principal */
+  --coffee: #453225;           /* marrom café — fundo principal do site */
+  --brown: #ece8e7;            /* off-white — texto principal sobre fundo escuro */
   --navy: #2c261e;            /* marrom quase preto — fundos escuros de destaque */
-  --espresso: #1d140e;        /* marrom profundo — botões escuros / maior ênfase */
-  --gray-body: #564e47;       /* cinza escuro — corpo de texto */
-  --beige: #d8cdc0;           /* bege claro — detalhes / seções alternadas */
-  --beige-gray: #baafa2;      /* bege acinzentado — fundos claros secundários */
-  --taupe: #a49b91;           /* taupe — bordas / tags / ícones neutros */
-  --cream: #ece8e7;           /* off-white — fundo mais claro do site */
+  --espresso: #1d140e;        /* marrom profundo — maior contraste */
+  --gray-body: #a49b91;       /* taupe — corpo de texto */
+  --beige: #d8cdc0;           /* bege claro — texto/detalhes de destaque */
+  --beige-gray: #baafa2;      /* bege acinzentado — detalhes */
+  --taupe: #a49b91;           /* taupe — bordas / ícones neutros */
+  --cream: #2c261e;           /* seções escuras alternadas */
 
   --font-serif: "Fraunces", "Cormorant Garamond", ui-serif, Georgia, serif;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 
   /* Mapped shadcn semantics */
-  --background: #ece8e7;
-  --foreground: #453225;
-  --card: #ece8e7;
-  --card-foreground: #453225;
-  --popover: #ece8e7;
-  --popover-foreground: #453225;
+  --background: #453225;
+  --foreground: #ece8e7;
+  --card: #2c261e;
+  --card-foreground: #ece8e7;
+  --popover: #2c261e;
+  --popover-foreground: #ece8e7;
   --primary: #c7a977;
-  --primary-foreground: #ffffff;
-  --secondary: #d8cdc0;
-  --secondary-foreground: #453225;
-  --muted: #d8cdc0;
-  --muted-foreground: #564e47;
-  --accent: #453225;
-  --accent-foreground: #d8cdc0;
+  --primary-foreground: #1d140e;
+  --secondary: #2c261e;
+  --secondary-foreground: #ece8e7;
+  --muted: #2c261e;
+  --muted-foreground: #a49b91;
+  --accent: #d8cdc0;
+  --accent-foreground: #1d140e;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: #ffffff;
-  --border: rgba(164, 155, 145, 0.35);
-  --input: rgba(164, 155, 145, 0.4);
+  --border: rgba(236, 232, 231, 0.16);
+  --input: rgba(236, 232, 231, 0.2);
   --ring: #c7a977;
 }
 
@@ -116,6 +118,8 @@
 @utility text-caramel { color: var(--caramel); }
 @utility text-brown { color: var(--brown); }
 @utility text-navy { color: var(--navy); }
+@utility bg-coffee { background-color: var(--coffee); }
+@utility text-coffee { color: var(--coffee); }
 @utility bg-caramel { background-color: var(--caramel); }
 @utility bg-beige { background-color: var(--beige); }
 @utility bg-cream { background-color: var(--cream); }

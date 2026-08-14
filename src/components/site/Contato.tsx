@@ -4,7 +4,7 @@ import { SignatureMark } from "./Logo";
 
 export function Contato() {
   return (
-    <section id="contato" className="py-24 md:py-32 bg-brown text-[color:var(--beige)] relative overflow-hidden">
+    <section id="contato" className="py-24 md:py-32 bg-[color:var(--coffee)] text-[color:var(--beige)] relative overflow-hidden">
       <SignatureMark className="absolute -left-20 -top-16 w-[420px] text-caramel opacity-[0.12]" />
       <SignatureMark className="absolute -right-24 -bottom-24 w-[520px] text-caramel opacity-[0.08]" />
 
@@ -24,7 +24,7 @@ export function Contato() {
             href={site.whatsappUrl}
             target="_blank"
             rel="noreferrer"
-            className="mt-10 group inline-flex items-center gap-3 bg-caramel text-brown px-8 py-5 rounded-full hover:bg-[color:var(--beige)] transition-colors"
+            className="mt-10 group inline-flex items-center gap-3 bg-caramel text-[color:var(--espresso)] px-8 py-5 rounded-full hover:bg-[color:var(--beige)] transition-colors"
           >
             {site.whatsappLabel}
             <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
