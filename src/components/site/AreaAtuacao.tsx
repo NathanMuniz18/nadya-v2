@@ -33,7 +33,7 @@ export function AreaAtuacao() {
                 alt="Nadya Tanan trabalhando com tablet"
                 className="absolute inset-0 w-full h-full object-cover object-top md:object-center"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-brown/60 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[color:var(--espresso)]/70 via-transparent to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-[color:var(--beige)]">
                 <div className="font-display text-xl">Escuta técnica, cuidado autoral.</div>
               </div>
@@ -46,7 +46,7 @@ export function AreaAtuacao() {
               return (
                 <div
                   key={s.title}
-                  className="bg-white/60 border border-caramel/25 rounded-3xl p-7 md:p-8 flex flex-col group h-full"
+                  className="bg-white/[0.04] border border-caramel/25 rounded-3xl p-7 md:p-8 flex flex-col group h-full"
                 >
                   <div className="h-14 w-14 rounded-2xl bg-caramel/15 flex items-center justify-center text-caramel mb-4">
                     <Icon className="h-6 w-6" />

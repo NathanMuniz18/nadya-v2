@@ -32,7 +32,7 @@ export function ComoAjudo() {
                 className="group bg-background p-8 md:p-10 hover:bg-cream transition-colors relative"
               >
                 <div className="flex items-center gap-4 mb-5">
-                  <div className="h-12 w-12 rounded-full bg-beige flex items-center justify-center text-caramel group-hover:bg-caramel group-hover:text-white transition-colors">
+                  <div className="h-12 w-12 rounded-full bg-caramel/15 flex items-center justify-center text-caramel group-hover:bg-caramel group-hover:text-[color:var(--espresso)] transition-colors">
                     <Icon className="h-5 w-5" />
                   </div>
                   <div className="text-[10px] tracking-[0.3em] text-caramel">

@@ -29,7 +29,7 @@ export function Footer() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={label}
-                className="h-10 w-10 rounded-full border border-border flex items-center justify-center text-brown hover:bg-caramel hover:text-white hover:border-caramel transition-colors"
+                className="h-10 w-10 rounded-full border border-border flex items-center justify-center text-brown hover:bg-caramel hover:text-[color:var(--espresso)] hover:border-caramel transition-colors"
               >
                 <Icon className="h-4 w-4" />
               </a>
