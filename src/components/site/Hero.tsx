@@ -3,8 +3,8 @@ import heroImg from "@/assets/nadya-foto-hero.jpg";
 import { hero, site } from "@/data/content";
 export function Hero() {
   return (
-    <section id="hero" className="relative pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden bg-cream">
-      <div className="absolute right-0 top-0 h-full w-1/2 bg-[#2c261e]/70 -skew-x-6 origin-top-right hidden md:block" />
+    <section id="hero" className="relative pt-32 pb-24 md:pt-40 md:pb-32 overflow-hidden bg-[#3A2719]">
+      <div className="absolute right-0 top-0 h-full w-1/2 bg-[#3A2719]/70 -skew-x-6 origin-top-right hidden md:block" />
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 grid md:grid-cols-12 gap-10 items-center">
         <div className="md:col-span-6 lg:col-span-7">
@@ -63,7 +63,7 @@ export function Hero() {
 
         <div className="md:col-span-6 lg:col-span-5 relative">
           <div className="relative aspect-[4/5] max-w-[440px] mx-auto">
-            <div className="absolute -inset-4 border border-caramel/40 rounded-tl-[120px] rounded-br-[120px]" />
+            <div className="absolute -inset-4 border border-[#D4AF37]/60 rounded-tl-[120px] rounded-br-[120px]" />
             <div className="relative w-full h-full overflow-hidden rounded-tl-[110px] rounded-br-[110px]">
               <img
                 src={heroImg}
