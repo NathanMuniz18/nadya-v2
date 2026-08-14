@@ -27,15 +27,15 @@ export function AreaAtuacao() {
         <div className="grid lg:grid-cols-12 gap-8 items-stretch">
           {/* Photo card — taller, fills the left column */}
           <div className="lg:col-span-4 relative">
-            <div className="relative h-full min-h-[520px] lg:min-h-[620px] rounded-3xl overflow-hidden">
+            <div className="relative h-full min-h-[560px] lg:min-h-[620px] rounded-3xl overflow-hidden">
               <img
                 src={areaImg}
                 alt="Nadya Tanan trabalhando com tablet"
                 className="absolute inset-0 w-full h-full object-cover object-top md:object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[color:var(--espresso)]/70 via-transparent to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-6 pb-8 text-[color:var(--beige)]">
-                <div className="font-display text-xl">Escuta técnica, cuidado autoral.</div>
+              <div className="absolute bottom-0 left-0 right-0 p-7 pb-12 text-[color:var(--beige)]">
+                <div className="font-display text-xl leading-snug">Escuta técnica, cuidado autoral.</div>
               </div>
             </div>
           </div>
