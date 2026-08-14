@@ -1,12 +1,8 @@
 import { Mail, Phone, ArrowRight } from "lucide-react";
 import { contato, site } from "@/data/content";
-import { SignatureMark } from "./Logo";
-
 export function Contato() {
   return (
     <section id="contato" className="py-24 md:py-32 bg-[color:var(--coffee)] text-[color:var(--beige)] relative overflow-hidden">
-      <SignatureMark className="absolute -left-20 -top-16 w-[420px] text-caramel opacity-[0.12]" />
-      <SignatureMark className="absolute -right-24 -bottom-24 w-[520px] text-caramel opacity-[0.08]" />
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-10 grid md:grid-cols-2 gap-16 items-center">
         <div>
