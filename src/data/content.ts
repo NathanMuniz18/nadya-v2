@@ -28,7 +28,7 @@ export const hero = {
   title:
     "Entre aquilo que você vive e aquilo que sua mente constrói,\nexiste uma história que merece ser compreendida.",
   lead:
-    "Meu trabalho integra a Psicanálise e a Neuropsicologia para ajudar você a compreender o que sente, identificar padrões e desenvolver recursos para viver com mais equilíbrio e autenticidade.",
+    "Meu trabalho integra a Psicanálise e a Neuropsicologia para compreender cada pessoa em sua singularidade, considerando sua história, seu funcionamento psíquico e cognitivo e a forma como se relaciona consigo, com o outro e com sua jornada. Atuo com terapia, avaliação neuropsicológica e consultoria organizacional.",
   tags: ["Atendimento online", "Presencial", "Adolescentes e adultos"],
   ctaPrimary: "Agendar uma conversa",
   ctaSecondary: "Conhecer o trabalho",
@@ -38,37 +38,37 @@ export const comoAjudo = {
   eyebrow: "Como posso te ajudar",
   title: "Principais temas que acolho em consultório",
   lead:
-    "Por trás de cada sintoma existe uma história que merece ser escutada. A ansiedade, os conflitos nos relacionamentos, a baixa autoestima e outros sofrimentos emocionais são caminhos possíveis para compreender aquilo que pede elaboração e transformação.",
+    "Por trás de cada sintoma, existe uma história que merece ser compreendida. Olhar para esses processos permite reconhecer padrões, elaborar experiências e construir novas possibilidades de se relacionar consigo, com o outro e com a própria forma de existir.",
   items: [
     {
       icon: "wind",
       title: "Ansiedade",
-      text: "Aprender a compreender os gatilhos, reduzir o excesso de preocupação e desenvolver estratégias para viver com mais equilíbrio e segurança.",
+      text: "Espaço de escuta e compreensão das manifestações da ansiedade, considerando os conflitos, questões e experiências que atravessam a história de cada pessoa.",
     },
     {
       icon: "heart",
       title: "Autoestima e autoconhecimento",
-      text: "Fortalecer a relação consigo mesmo, construir uma identidade mais sólida e desenvolver uma autoestima menos dependente da validação externa.",
+      text: "Compreensão da relação consigo mesmo, da própria história e das formas de se perceber, se posicionar e estabelecer relações com o outro.",
     },
     {
       icon: "users",
       title: "Relacionamentos",
-      text: "Dificuldades em relacionamentos amorosos, familiares e profissionais, padrões repetitivos, comunicação, limites e dependência emocional.",
+      text: "Escuta das questões presentes nos relacionamentos amorosos, familiares e profissionais, considerando conflitos, limites, dependência emocional e padrões que podem se repetir nos vínculos.",
     },
     {
       icon: "leaf",
       title: "Luto e mudanças",
-      text: "Espaço para elaborar perdas, separações, términos, mudanças de vida, transições profissionais e outras experiências que exigem adaptação.",
+      text: "Acompanhamento de questões relacionadas a perdas, separações, términos, mudanças e diferentes momentos de transição, considerando os sentidos que essas experiências assumem para cada pessoa.",
     },
     {
       icon: "flame",
       title: "Estresse, sobrecarga e burnout",
-      text: "Quando o cansaço deixa de ser apenas físico e começa a afetar emoções, produtividade, relacionamentos e qualidade de vida.",
+      text: "Espaço de escuta para questões relacionadas ao trabalho, à sobrecarga e às exigências presentes na vida profissional, considerando seus atravessamentos na vida pessoal.",
     },
     {
       icon: "compass",
-      title: "Desenvolvimento emocional",
-      text: "Acompanhamento para quem deseja compreender melhor suas emoções, enfrentar conflitos internos, aumentar a inteligência emocional e viver com mais autenticidade.",
+      title: "Treinamentos institucionais",
+      text: "Treinamentos e ações para empresas e instituições, com conteúdos voltados à saúde emocional, relações interpessoais, comunicação, liderança, segurança psicológica e saúde no trabalho.",
     },
   ],
 };
@@ -82,19 +82,19 @@ export const atuacao = {
       icon: "message-circle",
       title: "Psicoterapia",
       text:
-        "Para quem busca compreender a origem dos próprios conflitos, desenvolver recursos emocionais e construir mudanças duradouras.",
-      detail:
-        "Um processo individual que integra Psicanálise e Neuropsicologia para promover autoconhecimento, regulação emocional e relações mais saudáveis, respeitando a singularidade de cada história.",
+        "A psicoterapia é um espaço de escuta e elaboração para compreender os conflitos, padrões e experiências que atravessam sua história e influenciam a forma como você se relaciona consigo e com o outro. Um processo individual que integra Psicanálise e Neuropsicologia para ampliar o autoconhecimento, desenvolver recursos emocionais e construir novas possibilidades",
+      //detail:
+        //"Um processo individual que integra Psicanálise e Neuropsicologia para promover autoconhecimento, regulação emocional e relações mais saudáveis, respeitando a singularidade de cada história.",
       cta: "Conheça o processo",
       link: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Estou%20vindo%20pelo%20site%20e%20me%20interessei%20na%20Psicoterapia.",
     },
     {
       icon: "brain",
-      title: "Avaliação Neuropsicológica",
+      title: "Avaliação Psicológica",
       text:
-        "Precisão diagnóstica para decisões clínicas, acadêmicas e profissionais.",
-      detail:
-        "Avaliações completas com instrumentos científicos e análise clínica aprofundada para investigação de funções cognitivas, transtornos do neurodesenvolvimento, alterações emocionais e funcionamento intelectual. Laudo técnico, devolutiva detalhada e orientações personalizadas.",
+        "Por meio de instrumentos científicos e análise clínica integrada, são avaliadas funções cognitivas, aspectos emocionais, funcionamento intelectual e possíveis alterações relacionadas ao neurodesenvolvimento. O processo inclui laudo técnico, devolutiva detalhada e orientações individualizadas.",
+     // detail:
+       // "Avaliações completas com instrumentos científicos e análise clínica aprofundada para investigação de funções cognitivas, transtornos do neurodesenvolvimento, alterações emocionais e funcionamento intelectual. Laudo técnico, devolutiva detalhada e orientações personalizadas.",
       cta: "Entenda como funciona",
       link: "https://wa.me/5511937626205?text=Ol%C3%A1%21%20Estou%20vindo%20pelo%20site%20e%20me%20interessei%20na%20Avalia%C3%A7%C3%A3o%20Neuropsicol%C3%B3gica.",
     },
