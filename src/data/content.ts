@@ -9,7 +9,7 @@ export const site = {
   email: "psiconadyatanan@gmail.com",
   phone: "(11) 93762-6205",
   hours: "Segunda a sexta · 09h às 19h",
-  address: "Estrada São Francisco, 2008, Vila Sônia, Taboão da Serra. CEP: 06764-290",
+  address: "Estrada São Francisco, 2008, Vila Sônia, Taboão da Serra. CEP: 06765-001",
   instagram: "https://www.instagram.com/psico.nadyatanan",
   linkedin: "https://www.linkedin.com/in/nadyatanan/",
 };
