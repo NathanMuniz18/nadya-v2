@@ -37,7 +37,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="md:col-span-3">
+        <div className="md:col-span-2">
           <div className="text-[10px] tracking-[0.28em] uppercase text-caramel mb-4">Navegação</div>
           <ul className="space-y-2">
             {nav.map((n) => (
@@ -50,12 +50,19 @@ export function Footer() {
           </ul>
         </div>
 
-        <div className="md:col-span-4">
+        <div className="md:col-span-3">
           <div className="text-[10px] tracking-[0.28em] uppercase text-caramel mb-4">Contato</div>
           <ul className="space-y-2 text-brown">
             <li>{site.phone}</li>
             <li>{site.email}</li>
             <li className="text-[color:var(--gray-body)]">Atendimento online e presencial</li>
+          </ul>
+        </div>
+
+        <div className="md:col-span-3">
+          <div className="text-[10px] tracking-[0.28em] uppercase text-caramel mb-4">Endereço</div>
+          <ul className="space-y-2 text-brown">
+            <li className="text-[color:var(--gray-body)]">{site.address}</li>
           </ul>
         </div>
       </div>
